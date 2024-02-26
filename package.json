@@ -1,0 +1,25 @@
+{
+  "name": "user_auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heinhtet700/user_auth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heinhtet700/user_auth/issues"
+  },
+  "homepage": "https://github.com/heinhtet700/user_auth#readme",
+  "dependencies": {
+    "@types/node": "^20.11.20",
+    "bootstrap": "^5.3.3",
+    "ts-node-dev": "^2.0.0"
+  }
+}
