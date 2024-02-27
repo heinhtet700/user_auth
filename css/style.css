@@ -1,4 +1,25 @@
+.inner-container {
+  max-width: 500px;
+  margin: 0 auto;
+}
 .btn-container {
   display: flex;
   justify-content: center;
+  margin-top: 10px;
+}
+.usr-container {
+  margin-top: 10px;
+}
+.usr-container ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.usr-container .usr-lst li::marker{
+  content: none;
+}
+.usr-container .usr-lst li {
+  margin: 4px;
+}
+.usr-container .usr-lst li:first-child {
+  margin-left: 0;
 }

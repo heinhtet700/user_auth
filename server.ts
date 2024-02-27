@@ -35,7 +35,6 @@ const server = http.createServer(
             res.end();
           });
           break;
-
         default:
           break;
       }
